@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizes</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 10vh;
+            font-size: 2rem;
+            margin: auto;
+            background-color: rgb(197, 228, 255);
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            font-size: 18px;
+            margin: 20px auto;
+            background-color: rgb(197, 228, 255);
+        }
+        .container > div {
+           font-size: 2rem;
+           width: 50%;
+            border: 2px solid green;
+        }
+        
+        .container > div > div{
+            width: 50%;
+            border: 2px solid peru;
+        }
+        .myCon {
+            background-color: rgb(255, 189, 189);
+            color: rgb(13, 13, 12);
+            font-size: 20px;
+            margin: 20px auto;
+            width: 80vw;
+            box-sizing: border-box;
+            border: 2px solid black;
+        }
+
+        
+            
+
+   
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a box I
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam debitis incidunt ex, architecto tempora commodi qui omnis quod aliquid sed quidem voluptatibus ad dolore aspernatur dignissimos, laborum repudiandae quae esse.  
+            excepturi dicta voluptatum architecto aliquam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolor facilis id, nulla dolorum at eveniet saepe nobis provident optio tempora ratione illum. Numquam voluptate perferendis totam minus cumque consequatur!   
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta veniam ipsam cumque nihil quia velit quae magni facilis. Sit, quae.
+            </div>
+        </div>
+
+
+    </div>
+    <div class="myCon">
+        I ma Anoother div
+    </div>
+</body>
+
+</html>
