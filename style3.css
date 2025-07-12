@@ -1,0 +1,17 @@
+.heading:hover{
+    font-weight: bold;
+    text-shadow: -2px -3px 2px rgb(246, 246, 0);
+    
+}
+
+p::first-line{
+    font-size: 30px;
+    color: aqua;
+    text-align: justify;
+}
+button:active{
+    background-color: aquamarine;
+}
+input:focus{
+    background-color: bisque;
+}
