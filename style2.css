@@ -1,0 +1,23 @@
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+    /* font-style: italic; */
+    text-align: center;
+    text-decoration:underline;
+}
+
+p{
+    text-transform: capitalize;
+    line-height: 50px;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.two{
+    text-indent: 40px;
+
+}
+.heading{
+    text-shadow: -2px -2px 2px gray;
+}
