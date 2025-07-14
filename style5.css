@@ -13,9 +13,16 @@ input {
 } */
  
 *{
-    padding: 0;
+        padding: 0;
     margin: 0;
+}
+body{
+
     background-color:bisque ;
+ }
+ .container{
+    width: 700px;
+    margin: 0px auto;
  }
 .main{
     width: 200px;
@@ -23,9 +30,22 @@ input {
     border: 2px solid green;
     background-color: aqua;
     padding: 10px ;
-    margin: 10px auto;
-
+    display: inline-block;
+    margin:5px  10px ;  
 }
 .main > p{
     text-align: justify;
+}
+.list{
+    width: 550px;
+    margin: 2px auto;
+    background-color:red;
+    
+}
+.list > ul> li{
+    display: inline-block;
+    margin: 5px 15px;
+}
+.contact{
+    visibility: hidden;
 }
