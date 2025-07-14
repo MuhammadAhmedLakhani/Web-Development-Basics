@@ -11,11 +11,19 @@ input {
     border  :2px solid;
     border-color: aqua red blue;
 } */
+ 
+*{
+    padding: 0;
+    margin: 0;
+    background-color:bisque ;
+ }
 .main{
     width: 200px;
-    height: 300px;
+    height: 200px;
     border: 2px solid green;
-    padding: 10px 5px;
+    background-color: aqua;
+    padding: 10px ;
+    margin: 10px 5px;
 }
 .main > p{
     text-align: justify;
