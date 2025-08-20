@@ -71,6 +71,12 @@
     color: inherit;
 }
 .header{
+    
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100vh;
+    /* align-items:flex-end; */
+    align-content: space-around;
+
 }
