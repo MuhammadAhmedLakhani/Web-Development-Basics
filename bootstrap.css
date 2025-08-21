@@ -13,8 +13,10 @@ body{
 .two{
     height: 200px;
     background-color: orange;
+    margin-bottom: 10px;
 }
 .three{
     height: 200px;
     background-color: yellow;
+    margin-bottom: 10px;
 }
