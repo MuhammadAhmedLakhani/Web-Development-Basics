@@ -1,0 +1,9 @@
+.spinner-border{
+    width: 100px;
+    height: 100px;
+    margin:0px auto;
+}
+.spinner{
+    text-align: center;
+    z-index: -1;
+}
