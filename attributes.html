@@ -11,11 +11,19 @@
         } */
 
         
-        
-        
         div[class$="card"] {
-            border: 10px solid black;
+            border: 10px solid red;
         }
+
+        div[class^="card"] {
+            border: 10px solid blue;
+        }
+
+        div[class~="card"] {
+            border: 10px solid yellow;
+        }
+        
+        
         
 
 
@@ -30,7 +38,7 @@
     <h1 alt="">World</h1> -->
 
     <div class="card product">...</div>
-    <div class="card promotion">...</div>
+    <div class="card-promotion">...</div>
     <div class="info-card">...</div>
 
 
